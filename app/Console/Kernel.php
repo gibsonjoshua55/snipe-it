@@ -23,8 +23,7 @@ class Kernel extends ConsoleKernel
         Commands\DisableLDAP::class,
         Commands\Purge::class,
         Commands\LdapSync::class,
-        Commands\FixDoubleEscape::class,
-        Commands\RecryptFromMcrypt::class
+        Commands\FixDoubleEscape::class
     ];
 
     /**
